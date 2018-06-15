@@ -5,6 +5,5 @@
 Intent Firewall List
 </h1>
 
-> - The Intent Firewall is a component of the Android framework which allows for the enforcement of intents based on rules defined in XML files.
-> - Intent Firewall是Android框架的一个组件，它允许基于XML文件中定义的规则强制执行Intent。
+> A List of The Firewall For Intent |Keep Rogue Applications Quiet
 
