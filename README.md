@@ -29,7 +29,7 @@ Intent Firewall List
 >
 > ### 基础格式
 >
-> ```
+> ```xml
 > <rules>
 >   <[component] block="[true/false]" log="[true/false]" >
 >     <intent-filter >
@@ -39,7 +39,7 @@ Intent Firewall List
 > </rules>
 > ```
 >
-> 注意 IFW 只解析 `<rules />` 标签下的 `<activity />` `<service />` `<broadcast />` 标签
+> 注意 IFW 只解析 `<rules/>` 标签下的 `<activity/>` `<service/>` `<broadcast/>` 标签
 >
 > ### 形象点说？
 >
@@ -57,4 +57,13 @@ Intent Firewall List
 
 
 ## Instructions 使用方法
+
+> 1. 根据你要优化的应用的包名，在`Rules`文件夹下找到对于的文件夹，找到对应版本的文件夹。
+> 2. 复制`包名.xml`文件到你的安卓设备的`/data/system/ifw`文件夹下，IFW规则立即生效。
+
+
+
+## Contribution 贡献
+
+> 
 
