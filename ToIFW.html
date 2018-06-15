@@ -58,7 +58,7 @@
             var type = "";
 			var tempType = "";
 			
-			for (var nameLoop = 1; nameLoop < names.length; nameLoop++) {
+			for (var nameLoop = 0; nameLoop < names.length; nameLoop++) {
 				if (pattern.test(names[nameLoop])) {
 					ifw = ifw + "    <component-filter name=\"" + names[nameLoop] + "\" />\n";
 				}else{

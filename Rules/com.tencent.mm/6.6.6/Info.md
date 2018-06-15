@@ -1,0 +1,1 @@
+Power by [Link](https://bbs.letitfly.me/d/470)
