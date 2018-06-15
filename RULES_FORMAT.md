@@ -47,5 +47,4 @@ com.tencent.mm/com.tencent.mm.booter.CoreService
 - `block` 是否开启此组件规则
 - `log` 是否开启log
 - 该文件内容可通过`Rules.txt`文件内容转换得到
-- **转换工具 [ToIFW](https://yamiku.wodemo.com/down/483297/ToIFW.html) **
-
+- **转换工具 [ToIFW](https://yamiku.wodemo.com/down/483297/ToIFW.html)**
