@@ -76,5 +76,5 @@ Intent Firewall List
 >
 > 可一次编写多个应用，最后向我们打开一个 Pull request 即可。
 >
-> **格式可见 **[RULES_FORMAT.md](https://github.com/LaelLuo/Intent-Firewall-List/blob/master/RULES_FORMAT.md)
+> **格式可见 [RULES_FORMAT.md](https://github.com/LaelLuo/Intent-Firewall-List/blob/master/RULES_FORMAT.md)**
 
