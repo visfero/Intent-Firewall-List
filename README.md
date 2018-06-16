@@ -7,7 +7,7 @@ Intent Firewall List
 
 
 
-> A List of The Firewall For Intent | Keep Rogue Applications Quiet
+> A List of The Firewall For Intent 🚫 Keep Rogue Applications Quiet
 
 
 
