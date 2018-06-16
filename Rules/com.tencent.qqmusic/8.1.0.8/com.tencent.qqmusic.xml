@@ -1,0 +1,46 @@
+<rules>
+  <service block="true" log="false">
+    <component-filter name="com.tencent.qqmusic/com.tencent.qqmusic.business.lockscreen.LockScreenService" />
+    <component-filter name="com.tencent.qqmusic/com.xiaomi.mipush.sdk.MessageHandleService" />
+    <component-filter name="com.tencent.qqmusic/com.xiaomi.mipush.sdk.PushMessageHandler" />
+    <component-filter name="com.tencent.qqmusic/com.huawei.android.pushagent.PushService" />
+    <component-filter name="com.tencent.qqmusic/com.xiaomi.push.service.XMPushService" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.qqmusicplayerprocess.daemon.DaemonService" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.tinker.lib.service.DefaultTinkerResultService" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.qqmusic.tinker.service.MusicTinkerResultService" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.qqmusicplayerprocess.wns.PullService" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.qqmusicplayerprocess.qplayauto.QPlayAutoService" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.qqmusicplayerprocess.qqmusicdlna.QPlayService" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.qqmusic.third.QQMusicServiceForThird" />
+    <component-filter name="com.tencent.qqmusic/com.q.m.QS" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.qalsdk.service.QalAssistService" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.qalsdk.service.QalService" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.tmassistantsdk.downloadservice.TMAssistantDownloadSDKService" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.tmdownloader.TMAssistantDownloadService" />
+    <component-filter name="com.tencent.qqmusic/jackpal.androidterm.TermService" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.tinker.lib.service.TinkerPatchService" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.tinker.lib.service.TinkerPatchService$InnerService" />
+  </service>
+  <broadcast block="true" log="false">
+    <component-filter name="com.tencent.qqmusic/com.tencent.base.os.clock.AlarmClockReceiver" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.qqmusic.business.musicalarm.AlarmDemoReceiver" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.qqmusic.business.ford.AppLinkReceiver" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.qqmusic.BootBroadcastReceiver" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.qqmusic.third.BroadcastReceiverCenterForThird" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.component.thirdpartypush.huaweipush.HWPushReceiver" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.qqmusic.business.local.MediaScannReceiver" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.component.thirdpartypush.mipush.MiPushReceiver" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.qalsdk.core.NetConnInfoCenter" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.qqmusic.OverInstallDexInjectReceiver" />
+    <component-filter name="com.tencent.qqmusic/com.xiaomi.push.service.receivers.PingReceiver" />
+    <component-filter name="com.tencent.qqmusic/com.huawei.android.pushagent.PushBootReceiver" />
+    <component-filter name="com.tencent.qqmusic/com.huawei.android.pushagent.PushEventReceiver" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.qalsdk.QALBroadcastReceiver" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.qqmusic.ShutdownBroadcastReceiver" />
+  </broadcast>
+  <activity block="true" log="false">
+    <component-filter name="com.tencent.qqmusic/com.tencent.tads.splash.AdLandingPageActivity" />
+    <component-filter name="com.tencent.qqmusic/com.tencent.qqmusic.activity.PushInfoActivity" />
+    <component-filter name="com.tencent.qqmusic/jackpal.androidterm.Term" />
+  </activity>
+</rules>
